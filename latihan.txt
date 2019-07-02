@@ -1,0 +1,23 @@
+<?php
+
+$angka=$_POST['awal'];
+$max=$_POST['akhir'];
+
+if (isset($_POST['submit'])) {
+echo " <table border=1 align=center width=200 height=200>";	
+for($x=0; $x<$akhir; $x++) {
+
+$x=$x+1;
+$hasil= $x * $awal;
+
+
+echo "<tr align=center> <td> ".$x. "</td><td>";
+echo "* </td><td>";
+echo $awal. "</td><td>=</td><td>";
+echo $hasil. " </td>";
+echo " </tr> ";
+
+}
+
+}
+?>
